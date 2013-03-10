@@ -1,0 +1,42 @@
+[
+  {
+    "channel_name": "sina_account", 
+    "open": "yes", 
+    "platform": "SinaWeiboStatus", 
+    "methods": "home_timeline,update,forward",
+    "app_key": "3078149440",
+    "app_secret": "73602465f91cc01b553803b109dcdec3",
+    "user_id": "",
+    "user_name": "",
+	"auth_info":
+	{
+	  "callback_url": "https://api.weibo.com/oauth2/default.html",
+	  "cmd_fetch_code": "(console_input)",
+	  "cmd_request_url": "(console_output)",
+	  "save_token_file": "(default)"
+	},
+    "home_timeline":{
+      "count":100
+    }
+  },
+  {
+    "channel_name": "tencent_account", 
+    "open": "yes", 
+    "platform": "TencentWeiboStatus", 
+    "methods": "home_timeline,update,forward",
+    "app_key": "801320420",
+    "app_secret": "2d478d16e0c11bc7e8d33a156e78187c",
+    "user_id": "",
+    "user_name": "",
+	"auth_info":
+	{
+	  "callback_url": "http://junstrix.oicp.net",
+	  "cmd_fetch_code": "(console_input)",
+	  "cmd_request_url": "(console_output)",
+	  "save_token_file": "(default)"
+	},
+    "home_timeline":{
+      "count":100
+    }
+  }
+]

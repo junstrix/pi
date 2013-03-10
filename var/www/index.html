@@ -1,0 +1,67 @@
+<!DOCTYPE HTML>
+<html>
+  <head>
+	<meta http-equiv="content-type" content="text/html; charset=utf-8">
+    	<link rel="stylesheet" href="/css/stylesheet.css" type="text/css" media="screen" />
+	<title>Server on pi</title>
+	<script type="text/javascript" src="/javascripts/jquery-1.8.3.min.js"></script>
+  </head>
+  <body>
+    <div id="header" class="glo_body">
+	<div id="p_title">
+		<p align="center">I'm Raspberry pi</p>
+	</div>		
+    </div>
+    <div id="left" class="glo_body">
+	<div id="pi_logo">
+		<img src="http://www.sitepoint.com/wp-content/uploads/1/files/2012/02/647-raspberry-pi-50x50.png" data-pinit="registered"><p>正在反复折腾中，陆续分享一些攻略出来。</p>
+参考放在 github <a href="https://gist.github.com/junstrix/5053559" target="_blank">gist link</a>
+	<!-- Duoshuo Comment BEGIN -->
+	<div class="ds-thread"></div>
+	<script type="text/javascript">
+	var duoshuoQuery = {short_name:"junstrix"};
+	(function() {
+		var ds = document.createElement('script');
+		ds.type = 'text/javascript';ds.async = true;
+		ds.src = 'http://static.duoshuo.com/embed.js';
+		ds.charset = 'UTF-8';
+		(document.getElementsByTagName('head')[0] 
+		|| document.getElementsByTagName('body')[0]).appendChild(ds);
+	})();
+	</script>
+        <!-- Duoshuo Comment END -->
+	</div>
+    </div>
+    <div id="center" class="glo_body">
+	<div id="p_content">
+		<ul style="color: green;">
+			已完成
+			<li>连接到路由器，并使用域名动态解析，接入联通网络进入公网</li>
+			<li>ngnix服务器(80端口本网页)</li>
+			<li>使用pulseaudio跨网络音频应用，很好解决没有额外外放设备的问题</li>
+			<li>微博应用 <a href="http://t.qq.com/pi_robot">link</a></li>
+			<li>实时显示相关信息(右图)</li>
+		</ul>
+		<ul style="color: orange;">
+			正在进行
+			<li>web方式远控GPIO</li>
+			<li>与arduino串口通信,实现pi高层显示数据</li>
+			<li>离线下载应用</li>
+		</ul>
+	</div>
+    </div>
+    <div id="right" class="glo_body">
+	<div id="cosm_pic">
+	<img src="https://api.cosm.com/v2/feeds/117008/datastreams/temp.png?width=400&height=200&colour=%23f15a24&duration=3hours&title=Pi%E7%9A%84CPU%E5%AE%9E%E6%97%B6%E6%B8%A9%E5%BA%A6&show_axis_labels=true&detailed_grid=true&scale=auto&timezone=Beijing" data-pinit="registered">
+	<img src="https://api.cosm.com/v2/feeds/117008/datastreams/10min.png?width=400&height=200&colour=%23f15a24&duration=30minutes&title=Pi%E7%9A%84%E5%AE%9E%E6%97%B6%E8%B4%9F%E8%8D%B7&show_axis_labels=true&detailed_grid=true&scale=manual&min=-1&max=1&timezone=Beijing" data-pinit="registered">
+	<img src="https://api.cosm.com/v2/feeds/117008/datastreams/ds18b20.png?width=400&height=200&colour=%23f15a24&duration=3hours&title=(ds18b20)%E5%AE%BF%E8%88%8D%E5%AE%9E%E6%97%B6%E5%AE%A4%E6%B8%A9&show_axis_labels=true&detailed_grid=true&timezone=Beijing" data-pinit="registered">
+
+	</div>
+    </div>
+    <div id="footer" class="glo_body">
+	<div id="p_about">
+		<p align="center"> Powered by nginx on <strong>Pi</strong>, shutdown at 22:50, boot at 6:10 everyday</p>
+	</div>		
+    </div>
+  </body>
+</html>
