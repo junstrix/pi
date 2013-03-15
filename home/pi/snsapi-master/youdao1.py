@@ -32,7 +32,7 @@ def EveryGoodNight():
     mingyan_deletelist = "sed -i '/%s/d' %s" % (word_mingyan,GoodNingFile) # system command: delete a word form list
     os.system(mingyan_deletelist)
     return word_mingyan
-    
+
 # get translate from dict.youdao.com api
 def Send_Weibo():
     type = 'json'
@@ -66,12 +66,12 @@ while True:
     h, m = datetime.now().hour, datetime.now().minute
 #    nowtime = datetime.now().strftime('%b-%d-%y %H:%M:%S')
     if h == 22 and m == 50:
-    	t = '%s 晚安,远方的星。' %(EveryGoodNight())
-    	sp.update(t.decode('utf-8'))
+        t = '%s 晚安,远方的星。' %(EveryGoodNight())
+        sp.update(t.decode('utf-8'))
         quit()
     if h == 6 and m == 10:
-    	t = '%s 早安，璀璨。' % (English_Everyday())
-    	sp.update(t.decode('utf-8'))
+        t = '%s 早安，璀璨。' % (English_Everyday())
+        sp.update(t.decode('utf-8'))
     if m == 0 or m == 30:
         sp.update(Send_Weibo())
     time.sleep(60)
