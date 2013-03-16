@@ -1,20 +1,14 @@
-<!DOCTYPE HTML>
-<html>
-  <head>
-	<meta http-equiv="content-type" content="text/html; charset=utf-8">
-    	<link rel="stylesheet" href="/css/stylesheet.css" type="text/css" media="screen" />
-	<title>Server on pi</title>
-	<script type="text/javascript" src="/javascripts/jquery-1.8.3.min.js"></script>
-  </head>
-  <body>
-    <div id="header" class="glo_body">
-	<div id="p_title">
-		<p align="center">I'm Raspberry pi</p>
-	</div>		
-    </div>
+{% extends "pi/base.html" %}
+
+{% block title %}
+Server on pi
+{% endblock %}
+
+{% block content %}
     <div id="left" class="glo_body">
 	<div id="pi_logo">
-		<img src="http://www.sitepoint.com/wp-content/uploads/1/files/2012/02/647-raspberry-pi-50x50.png" data-pinit="registered"><p>正在反复折腾中，陆续分享一些攻略出来。</p>
+		<p style="color: #4BA158;"><img src="http://www.sitepoint.com/wp-content/uploads/1/files/2012/02/647-raspberry-pi-50x50.png" data-pinit="registered">{{ os_uptime }}</p>
+		<p>反复折腾中，陆续分享一些攻略出来。</p>
 参考放在 github <a href="https://gist.github.com/junstrix/5053559" target="_blank">gist link</a>
 	<!-- Duoshuo Comment BEGIN -->
 	<div class="ds-thread"></div>
@@ -57,10 +51,4 @@
 	<img src="https://api.cosm.com/v2/feeds/117008/datastreams/10min.png?width=400&height=200&colour=%23f15a24&duration=30minutes&title=Pi%E7%9A%84%E5%AE%9E%E6%97%B6%E8%B4%9F%E8%8D%B7&show_axis_labels=true&detailed_grid=true&scale=manual&min=-1&max=1&timezone=Beijing" data-pinit="registered">
 	</div>
     </div>
-    <div id="footer" class="glo_body">
-	<div id="p_about">
-		<p align="center"> Powered by nginx on <strong>Pi</strong>, shutdown at 22:50, boot at 6:10 everyday</p>
-	</div>		
-    </div>
-  </body>
-</html>
+{% endblock %}

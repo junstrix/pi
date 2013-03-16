@@ -1,4 +1,5 @@
-# Django settings for pi project.
+import os
+# Django settings for pi_dev project.
 
 DEBUG = True
 TEMPLATE_DEBUG = DEBUG
@@ -33,7 +34,8 @@ TIME_ZONE = 'Asia/Shanghai'
 
 # Language code for this installation. All choices can be found here:
 # http://www.i18nguy.com/unicode/language-identifiers.html
-LANGUAGE_CODE = 'en-us'
+# LANGUAGE_CODE = 'en-us'
+LANGUAGE_CODE = 'zh-CN'
 
 SITE_ID = 1
 
@@ -72,6 +74,7 @@ STATICFILES_DIRS = (
     # Put strings here, like "/home/html/static" or "C:/www/django/static".
     # Always use forward slashes, even on Windows.
     # Don't forget to use absolute paths, not relative paths.
+    os.path.join(os.path.dirname(__file__), 'static'),
 )
 
 # List of finder classes that know how to find static files in
@@ -83,7 +86,7 @@ STATICFILES_FINDERS = (
 )
 
 # Make this unique, and don't share it with anybody.
-SECRET_KEY = 'y4++xlz-gsup)(5xx=@cg_qy3q9=(=a8t#%kyuz#hzrnn1)%r7'
+SECRET_KEY = '@!64%d(98p%)^vbi!^nw=!(ta%&amp;qb()j0kv_btn$cu-z^wrh*y'
 
 # List of callables that know how to import templates from various sources.
 TEMPLATE_LOADERS = (
@@ -102,16 +105,16 @@ MIDDLEWARE_CLASSES = (
     # 'django.middleware.clickjacking.XFrameOptionsMiddleware',
 )
 
-ROOT_URLCONF = 'pi.urls'
+ROOT_URLCONF = 'pi_dev.urls'
 
 # Python dotted path to the WSGI application used by Django's runserver.
-WSGI_APPLICATION = 'pi.wsgi.application'
+WSGI_APPLICATION = 'pi_dev.wsgi.application'
 
 TEMPLATE_DIRS = (
-    '/var/www/django-dev/pi/pi/templates'
     # Put strings here, like "/home/html/django_templates" or "C:/www/django/templates".
     # Always use forward slashes, even on Windows.
     # Don't forget to use absolute paths, not relative paths.
+    '/var/www/django-dev/pi_dev/pi_dev/templates',
 )
 
 INSTALLED_APPS = (

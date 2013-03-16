@@ -108,7 +108,6 @@ anyway
 apart  
 apartment  
 apology  
-apparent  
 appeal  
 appear  
 appetite  
@@ -204,7 +203,6 @@ bankrupt
 banner  
 bar  
 barber  
-bare  
 bargain  
 bark  
 barn  
@@ -263,7 +261,6 @@ book
 boom  
 boost  
 boot  
-border  
 bore  
 bother  
 bound  
@@ -279,7 +276,6 @@ bright
 brilliant  
 Britain  
 broadcast  
-broom  
 bubble  
 bucket  
 budget  
@@ -311,7 +307,6 @@ canal
 cancel  
 cancer  
 candidate  
-capable  
 capacity  
 captain  
 capture  
@@ -363,7 +358,6 @@ chill
 chimney  
 chin  
 china  
-Chinese  
 Christ  
 Christian  
 Christmas  
@@ -470,7 +464,6 @@ confusion
 congress  
 conjunction  
 conquer  
-conquest  
 conscience  
 conscious  
 consent  
@@ -570,7 +563,6 @@ darling
 dash  
 data  
 daylight  
-deadline  
 deaf  
 deal  
 debate  
@@ -680,7 +672,6 @@ distress
 distribute  
 distribution  
 district  
-disturb  
 ditch  
 dive  
 diverse  
@@ -703,7 +694,6 @@ drawing
 drill  
 drum  
 drunk  
-duck  
 due  
 dull  
 dumb  
@@ -837,7 +827,6 @@ exterior
 external  
 extra  
 extraordinary  
-extreme  
 eyesight  
 fabric  
 facility  
@@ -885,7 +874,6 @@ fibre
 fiction  
 figure  
 file  
-filter  
 finally  
 finance  
 financial  
@@ -1059,7 +1047,6 @@ herd
 heroic  
 highlight  
 highly  
-highway  
 hint  
 hip  
 historic  
@@ -1096,7 +1083,6 @@ idle
 ignorance  
 ignorant  
 illegal  
-image  
 imaginary  
 imagination  
 imagine  
@@ -1108,7 +1094,6 @@ imply
 import  
 impress  
 impression  
-impressive  
 improve  
 improvement  
 incident  
@@ -1342,7 +1327,6 @@ ministry
 minor  
 minority  
 minus  
-minute  
 miracle  
 mirror  
 miserable  
@@ -1356,7 +1340,6 @@ misunderstand
 mixture  
 mobile  
 mode  
-modify  
 moist  
 moisture  
 mold  
@@ -1385,7 +1368,6 @@ mystery
 myth  
 naked  
 namely  
-nationality  
 naval  
 navigation  
 nearby  
@@ -1434,7 +1416,6 @@ nucleus
 nuisance  
 numerous  
 nursery  
-nut  
 object  
 objection  
 objective  
@@ -1481,7 +1462,6 @@ outer
 outlet  
 outline  
 outlook  
-output  
 outset  
 outstanding  
 outward  
@@ -1610,7 +1590,6 @@ pour
 poverty  
 powerful  
 practical  
-practically  
 practice  
 practise  
 praise  
@@ -1651,7 +1630,6 @@ principle
 prior  
 priority  
 private  
-privilege  
 procedure  
 proceed  
 process  
@@ -1778,7 +1756,6 @@ reinforce
 reject  
 relate  
 relationship  
-relativity  
 relax  
 reliable  
 relief  
@@ -1802,8 +1779,6 @@ replace
 replacement  
 reply  
 reporter  
-represent  
-representative  
 reproduce  
 republican  
 reputation  
@@ -1940,7 +1915,6 @@ series
 serious  
 session  
 setting  
-settlement  
 seventeen  
 seventy  
 severe  
@@ -1965,7 +1939,6 @@ shrink
 shrug  
 sideways  
 sigh  
-sightseeing  
 similar  
 similarly  
 simplicity  
@@ -2015,7 +1988,6 @@ somehow
 sometime  
 somewhat  
 sophisticated  
-sore  
 sort  
 sound  
 southeast  
@@ -2064,7 +2036,6 @@ stake
 stale  
 stamp  
 standard  
-standpoint  
 stare  
 starve  
 static  
@@ -2166,7 +2137,6 @@ tame
 tank  
 tap  
 target  
-task  
 taste  
 tax  
 technician  
@@ -2301,7 +2271,6 @@ unlike
 unload  
 unnecessary  
 unpleasant  
-unusual  
 upright  
 upset  
 upstairs  

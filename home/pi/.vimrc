@@ -18,6 +18,8 @@ Bundle 'gmarik/vundle'
 "
 " original repos on github
 Bundle 'msanders/snipmate.vim'
+autocmd FileType python set ft=python.django " For SnipMate
+autocmd FileType html set ft=htmldjango.html " For SnipMate
 "Bundle 'tpope/vim-fugitive'
 "Bundle 'Lokaltog/vim-easymotion'
 "Bundle 'rstacruz/sparkup', {'rtp': 'vim/'}
