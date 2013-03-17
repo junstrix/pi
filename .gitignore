@@ -36,6 +36,9 @@
 /etc/.*
 /etc/mysql
 /etc/adduser.conf
+/etc/issue.linuxlogo
+/etc/issue.linuxlogo.ascii
+/etc/linux_logo.conf
 /etc/alternatives
 /etc/apm
 /etc/apparmor.d

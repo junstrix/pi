@@ -16,6 +16,14 @@
 #
 # Please see /usr/share/doc/nginx-doc/examples/ for more detailed examples.
 ##
+#server {
+#	listen	80;
+#	server_name raspberrypi;
+#	location / {
+#		include uwsgi_params;
+#		uwsgi_pass 127.0.0.1:9090;
+#	}
+#}
 
 server {
 	#listen   80; ## listen for ipv4; this line is default and implied

@@ -34,7 +34,6 @@ acquisition
 acre  
 action  
 activity  
-actually  
 ad  
 adapt  
 addition  
@@ -71,7 +70,6 @@ alike
 alive  
 alliance  
 allocate  
-ally  
 along  
 alongside  
 aloud  
@@ -93,7 +91,6 @@ analyze
 anchor  
 anger  
 angry  
-ankle  
 anniversary  
 announce  
 annoy  
@@ -175,7 +172,6 @@ authority
 auto  
 automatic  
 automobile  
-auxiliary  
 available  
 avenue  
 avoid  
@@ -209,7 +205,6 @@ barn
 barrel  
 barrier  
 baseball  
-basically  
 basin  
 basis  
 bat  
@@ -230,7 +225,6 @@ beloved
 beneath  
 benefit  
 beneficial  
-besides  
 bet  
 bible  
 bid  
@@ -349,7 +343,6 @@ chase
 chat  
 cheat  
 cheer  
-chemist  
 cheque  
 chess  
 chew  
@@ -442,7 +435,6 @@ concede
 concept  
 concern  
 concerning  
-concert  
 concession  
 conclude  
 conclusion  
@@ -450,8 +442,6 @@ concrete
 condemn  
 condense  
 condition  
-conduct  
-conductor  
 conference  
 confidence  
 confident  
@@ -476,7 +466,6 @@ considerable
 consist  
 consistent  
 constant  
-constitute  
 construct  
 construction  
 consult  
@@ -714,7 +703,6 @@ economy
 edge  
 effective  
 efficiency  
-efficient  
 eighteen  
 eighth  
 eighty  
@@ -773,14 +761,12 @@ equivalent
 era  
 erect  
 escape  
-especially  
 essential  
 estimate  
 Europe  
 European  
 eve  
 even  
-evidence  
 evident  
 evidently  
 evil  
@@ -874,7 +860,6 @@ fibre
 fiction  
 figure  
 file  
-finally  
 finance  
 financial  
 find  
@@ -918,7 +903,6 @@ forth
 fortnight  
 found  
 foundation  
-fourteen  
 fraction  
 fragment  
 frame  
@@ -929,7 +913,6 @@ freeze
 freight  
 frequency  
 fridge  
-frighten  
 frost  
 fulfill  
 fund  
@@ -954,7 +937,6 @@ gay
 gaze  
 gear  
 gene  
-generally  
 generous  
 genius  
 gentle  
@@ -1028,7 +1010,6 @@ haste
 hatred  
 hay  
 heading  
-headline  
 heal  
 heap  
 hear  
@@ -1162,12 +1143,10 @@ internal
 Internet  
 interpret  
 interpretation  
-interrupt  
 interview  
 intimate  
 introduction  
 invade  
-invent  
 invisible  
 invitation  
 involve  
@@ -1397,7 +1376,6 @@ nonsense
 noodle  
 nor  
 normal  
-normally  
 north  
 northeast  
 northern  
@@ -1463,7 +1441,6 @@ outlet
 outline  
 outlook  
 outset  
-outstanding  
 outward  
 oval  
 oven  
@@ -1595,7 +1572,6 @@ practise
 praise  
 pray  
 prayer  
-preceding  
 precious  
 precise  
 precision  
@@ -1693,11 +1669,9 @@ radiation
 radical  
 rag  
 rail  
-railroad  
 raincoat  
 rainy  
 raise  
-rally  
 range  
 rank  
 rapid  
@@ -1711,7 +1685,6 @@ readily
 reading  
 realistic  
 reality  
-realize  
 realm  
 rear  
 reason  
@@ -1740,7 +1713,6 @@ reference
 refine  
 reflect  
 reflection  
-reform  
 refresh  
 refugee  
 refusal  
@@ -1753,7 +1725,6 @@ regular
 regulate  
 regulation  
 reinforce  
-reject  
 relate  
 relationship  
 relax  
@@ -1871,7 +1842,6 @@ satisfaction
 satisfactory  
 sauce  
 saucer  
-save  
 scan  
 scandal  
 scarce  
@@ -1903,7 +1873,6 @@ seize
 select  
 selection  
 selfish  
-semiconductor  
 seminar  
 senate  
 senator  
@@ -1973,8 +1942,6 @@ soak
 soar  
 so-called  
 soccer  
-social  
-socialism  
 soda  
 sofa  
 software  
@@ -2001,7 +1968,6 @@ speaker
 specialize  
 species  
 specific  
-specifically  
 specify  
 specimen  
 spectacular  
@@ -2155,7 +2121,6 @@ tension
 tent  
 term  
 terminal  
-terrible  
 terrific  
 territory  
 textbook  
@@ -2282,7 +2247,6 @@ useful
 useless  
 user  
 usual  
-usually  
 utility  
 utilize  
 utmost  
@@ -2329,7 +2293,6 @@ violent
 violet  
 violin  
 virtual  
-virtually  
 virtue  
 virus  
 visible  

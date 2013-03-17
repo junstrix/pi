@@ -17,4 +17,5 @@ if [ "$_IP" ]; then
   printf "My IP address is %s\n" "$_IP"
 fi
 /home/pi/snsapi-master/youdao1.sh
+#/usr/bin/python2.7 /var/www/django-dev/pi_dev/manage.py runserver 0.0.0.0:80 &> /dev/null
 exit 0
