@@ -11,7 +11,7 @@
 }
 
 #left {
-	margin-top: 60px;
+	margin-top: 70px;
 	left: 5px;
 	position: absolute;
 	border: 1px none;
@@ -32,7 +32,7 @@
 }
 
 #right {
-	margin-top: 60px; /* margin-top: 60px;*/
+	margin-top: 90px; /* margin-top: 60px;*/
 	right: 0px;
 	position: absolute;
 	border: 1px none;

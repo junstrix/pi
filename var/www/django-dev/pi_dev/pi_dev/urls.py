@@ -1,8 +1,11 @@
 # from django.conf.urls import patterns, include, url
+from django.contrib import admin
+
 from django.conf.urls import *
 from pi_dev.views import Pi_Index
 from pi_dev.views import hello
 
+admin.autodiscover()
 # Uncomment the next two lines to enable the admin:
 # from django.contrib import admin
 # admin.autodiscover()
@@ -20,5 +23,7 @@ urlpatterns = patterns('',
     (r'^$',Pi_Index),
     ('^pi/$', Pi_Index),
     ('^hello/$', hello),
+#    ('^todo/$', todo),
     (r'^static/(?P<path>.*)$', 'django.views.static.serve'),
+    (r'^admin/', include(admin.site.urls)),
 )

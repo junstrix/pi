@@ -13,4 +13,9 @@ def Pi_Index(request):
     return render_to_response('pi/pi.html', {'current_date': now,'os_uptime': osuptime,'os_cpuinfo': oscpuinfo,'sos_uptime': sosuptime,'sys_free':sosfree,'sys_linuxlogo': soslogo})
 
 def hello(request):
-    return HttpResponse("Hello world")
+#    return HttpResponse("Welcome to the page at %s ::: %s ::: %s" % (request.path, request.get_host(), request.get_full_path()))
+    try:
+        ua = request.META['HTTP_USER_AGENT']
+    except KeyError:
+        ua = 'unknown'
+    return HttpResponse("your broswer is : %s" % ua)
